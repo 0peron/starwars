@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	max-width: 100em;
+	padding-left: 2.0em;
+	padding-right: 2.0em;
+}
+
+.row::before,
+.row::after {
+	display: table;
+	content: '';
+}
+
+.row::after {
+	clear: both;
+}
+
+.col-1, .col-2 {
+	float: left;
+	padding-left: 1.04%;
+	padding-right: 1.04%;
+}
+
+.col-1, .col-2 {
+	width: 100%;
+}
+
+@media only screen and (min-width:64em) {
+	.col-1, .col-2 {
+		width: 33.33%;
+	}
+}
