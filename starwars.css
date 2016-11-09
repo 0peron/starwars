@@ -1,13 +1,49 @@
 nav	{
-	height: 6em;
+	height: 80px;
 	width: 100%;
 	background-color: orange;
 	display: inline-block;	
 }
 
-nav > h1, nav > p {
+nav > h1 {
 	text-align: left;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-bottom: 5px;
-	margin-left: 5px;
+	margin-left: 25%;
+}
+
+nav > p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 25%;
+}
+
+main {
+	padding-top: 50px;
+}
+
+main .row {
+	margin-bottom: 20px;
+}
+
+.box {
+	width: 202px;
+	height: 300px;
+	border: 1px solid lightgrey;
+}
+
+.box img {
+	width: 200px;
+	text-align: center;
+}
+
+h4 {
+	margin-left: 4px;
+}
+
+p {
+	font-size: 12px;
+	margin-top: -10px;
+	margin-left: 4px;
 }
