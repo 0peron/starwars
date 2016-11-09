@@ -3,9 +3,9 @@
 }
 
 .row {
-	max-width: 100em;
-	padding-left: 2.0em;
-	padding-right: 2.0em;
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .row::before,
@@ -18,18 +18,18 @@
 	clear: both;
 }
 
-.col-1, .col-2 {
+.car-1, .car-2 {
 	float: left;
 	padding-left: 1.04%;
 	padding-right: 1.04%;
 }
 
-.col-1, .col-2 {
+.car-1, .car-2 {
 	width: 100%;
 }
 
-@media only screen and (min-width:64em) {
-	.col-1, .col-2 {
+@media only screen and (min-width:640px) {
+	.car-1, .car-2 {
 		width: 33.33%;
 	}
 }
